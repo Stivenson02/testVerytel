@@ -1,6 +1,6 @@
  El objetivo del patrón Singleton es el de asegurar que existe únicamente una instancia de una clase concreta.
  Con este patrón se hace imposible instanciar más de una clase u objeto aparte de asegurarnos de que estemos
- Usando una infancia.
+ Usando una instancia.
  Singleton nos provee una accesibilidad Global a esta instancia de forma que podemos tener acceso, 
  desde cualquier parte de nuestro desarrollo. 
 __________________________________________
