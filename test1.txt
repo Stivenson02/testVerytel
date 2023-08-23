@@ -1,0 +1,14 @@
+ El objetivo del patrón Singleton es el de asegurar que existe únicamente una instancia de una clase concreta.
+ Con este patrón se hace imposible instanciar más de una clase u objeto aparte de asegurarnos de que estemos
+ Usando una infancia.
+ Singleton nos provee una accesibilidad Global a esta instancia de forma que podemos tener acceso, 
+ desde cualquier parte de nuestro desarrollo. 
+__________________________________________
+ Si lo he usado, pero tienes sus complicaciones en los Testing,
+ por lo que daña el código y toca hacer varios trucos para que el test sea funcional, 
+ Hay una charla muy interesante en este LINK: 'https://www.youtube.com/watch?v=-FRm3VPhseI&ab_channel=GoogleTechTalks'
+ si no tienes problema con el inglés te invito a verla, habla sobre este patrón y sus problemas 
+__________________________________________
+ La manera como lo he implementado y como la documentación lo sugiere
+ es haciendo el constructor prívate y crear una función static que valide
+ Por un IF la instancia y retorné el NEW SINGLETON.
